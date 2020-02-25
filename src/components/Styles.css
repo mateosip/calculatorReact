@@ -1,0 +1,118 @@
+.Display {
+  height: 15%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border: 2px solid gray;
+  border-radius: 5px;
+  background-color: rgb(137, 238, 137);
+}
+.DisplayNegative {
+  height: 15%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border: 2px solid gray;
+  border-radius: 5px;
+  background-color:rgb(196, 66, 66);
+  color:white;
+}
+
+.Botonera {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 75%;
+  margin-top: 5px;
+}
+.BotoneraArriba {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  height: 60%;
+  justify-content: space-between;
+}
+
+.BotoneraAbajo {
+  display: flex;
+  width: 100%;
+  height: 40%;
+}
+.Arriba {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  justify-content: space-between;
+}
+.Abajo {
+  display: flex;
+  height: 50%;
+  justify-content: space-between;
+}
+.Izquierda {
+  display: flex;
+  width: 75%;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.igual {
+  display: flex;
+  width: 122px;
+  justify-content: center;
+  align-items: center;
+  background-color: gainsboro;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: rgb(206, 144, 30);
+}
+.igual:hover{
+  cursor:pointer;
+  background-color:rgb(151, 98, 0);
+}
+.boton {
+  width: 122px;
+  background-color: gainsboro;
+  border: 1px solid;
+  border-radius: 5px;
+  cursor:pointer;
+  
+}
+.boton:hover {
+  background-color: rgb(136, 128, 128);
+  cursor:pointer;
+}
+.botonOp{
+  width: 122px;
+  background-color: rgb(141, 129, 129);
+  border: 1px solid;
+  border-radius: 5px;
+  cursor:pointer;
+}
+.botonOp:hover{
+  background-color:rgb(66, 65, 65);
+}
+.botonArriba {
+  width: 32%;
+  background-color: gainsboro;
+  border: 1px solid;
+  border-radius: 5px;
+  cursor:pointer;
+}
+.botonArriba:hover{
+  background-color: rgb(136, 128, 128);
+  cursor:pointer;
+}
+
+.botonAbajo {
+  width: 66%;
+  background-color: gainsboro;
+  border: 1px solid;
+  border-radius: 5px;
+  cursor:pointer;
+}
+.botonAbajo:hover{
+  background-color: rgb(136, 128, 128);
+  cursor:pointer;
+}
