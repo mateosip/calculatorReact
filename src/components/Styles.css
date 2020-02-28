@@ -1,30 +1,37 @@
 .Display {
-  height: 15%;
+  height: 75px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   border: 2px solid gray;
   border-radius: 5px;
+  background-color: gainsboro;
+  /* flex-direction:column; */
+  width: 620px;
+}
+.DisplayPositivo {
   background-color: rgb(137, 238, 137);
 }
 .DisplayNegative {
-  height: 15%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  border: 2px solid gray;
-  border-radius: 5px;
-  background-color:rgb(196, 66, 66);
-  color:white;
+  background-color: rgb(196, 66, 66);
+  color: white;
 }
-
+.DisplayIzquierda {
+  display:flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+.DisplayDerecha {
+  display:flex;
+  flex-direction:column;
+  
+}
 .Botonera {
   display: flex;
   justify-content: center;
   width: 500px;
   flex-wrap: wrap;
   align-items: center;
-  height: 75%;
   margin-top: 5px;
 }
 .BotoneraArriba {
@@ -67,42 +74,52 @@
   border-radius: 5px;
   background-color: rgb(206, 144, 30);
 }
-.igual:hover{
-  cursor:pointer;
-  background-color:rgb(151, 98, 0);
+.igual:hover {
+  cursor: pointer;
+  background-color: rgb(151, 98, 0);
 }
 .boton {
   width: 122px;
   background-color: gainsboro;
   border: 1px solid;
   border-radius: 5px;
-  cursor:pointer;
-  
+  cursor: pointer;
 }
 .boton:hover {
   background-color: rgb(136, 128, 128);
-  cursor:pointer;
+  cursor: pointer;
 }
-.botonOp{
+.boton:active {
+  background-color: black;
+}
+.botonOp {
   width: 122px;
   background-color: rgb(141, 129, 129);
   border: 1px solid;
   border-radius: 5px;
-  cursor:pointer;
+  cursor: pointer;
+  height: 42px;
 }
-.botonOp:hover{
-  background-color:rgb(66, 65, 65);
+.botonOp:hover {
+  background-color: rgb(66, 65, 65);
+}
+.botonOp:active {
+  background-color: black;
 }
 .botonArriba {
-  width: 32%;
+  width: 123px;
   background-color: gainsboro;
   border: 1px solid;
   border-radius: 5px;
-  cursor:pointer;
+  cursor: pointer;
+  height: 42px;
 }
-.botonArriba:hover{
+.botonArriba:hover {
   background-color: rgb(136, 128, 128);
-  cursor:pointer;
+  cursor: pointer;
+}
+.botonArriba:active {
+  background-color: black;
 }
 
 .botonAbajo {
@@ -110,9 +127,39 @@
   background-color: gainsboro;
   border: 1px solid;
   border-radius: 5px;
-  cursor:pointer;
+  cursor: pointer;
+  height: 42px;
 }
-.botonAbajo:hover{
+.botonAbajo:hover {
   background-color: rgb(136, 128, 128);
-  cursor:pointer;
+  cursor: pointer;
+}
+.botonAbajo:active {
+  background-color: black;
+}
+.calculadora {
+  width: 700px;
+  height: 400px;
+}
+.BotoneraAdv {
+  width: 124px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  flex-wrap: wrap;
+ 
+  margin-top: 5px;
+  flex-direction: column;
+}
+.keyboard {
+  display: flex;
+  height: 225px;
+}
+.BotoneraAdv {
+  width: 200px;
+  height: 220px;
+}
+.cursor{
+  cursor:pointer
 }

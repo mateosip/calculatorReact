@@ -3,13 +3,13 @@ import Styles from "./Styles.css";
 
 
 const botonera = (props) => {
-    const {changeCadena,equalChange,deleteChange} = props;
+    const {changeCadena,equalChange,deleteChange,changeMode} = props;
   return (
     <div className="Botonera">
       <div className="BotoneraArriba">
         <div onClick={()=>deleteChange()}className="botonOp">←</div>
         <div className="botonOp">
-          <p />
+          <div onClick={()=>changeMode()}>Sim/Adv</div>
         </div>
         <div onClick={()=> changeCadena("/")} className="botonOp">/</div>
         <div onClick={()=>changeCadena("*")} className="botonOp">*</div>
